@@ -46,4 +46,10 @@ Increases the effective throughput on PPP connections by reducing the amount of 
 
 * Structure
 
+
+|                 |                 |                  |                  |        |                           
+|-----------------|-----------------|------------------|------------------|--------|
+|                 |                 |                  |                  |        |
+
+
 * Encapsulation
