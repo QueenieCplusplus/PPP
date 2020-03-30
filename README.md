@@ -15,6 +15,10 @@ PPP provides data-link connection between 2 routers, it can provide authenticati
 
 # Auth
 
+Peer routers exchange auth messages. Two auth choices are Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP). 
+
+Auth's Work Principle
+
 https://github.com/QueenieCplusplus/DataStorage_Hadoop#key-in-session-加密的安全通訊技術
 
 
