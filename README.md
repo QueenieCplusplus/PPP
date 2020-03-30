@@ -1,5 +1,5 @@
 # PPP
-Point to Point Protocol == dial up access from client to ISP
+Point to Point Protocol == dial up access from client to ISP uisng PPPoE || PPPoA
 
 PPP provides data-link connection between 2 routers, it can provide authentication, encryption, and compression.
 
