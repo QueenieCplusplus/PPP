@@ -41,3 +41,9 @@ https://github.com/QueenieCplusplus/Cipher_Crypto
 # Compression
 
 Increases the effective throughput on PPP connections by reducing the amount of data in the frame that must travel across the link. Then decompress at destination.
+
+# PPP frame (within datagrame)
+
+* Structure
+
+* Encapsulation
