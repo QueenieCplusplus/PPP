@@ -47,13 +47,13 @@ Increases the effective throughput on PPP connections by reducing the amount of 
 * Structure
 
 
-|    flag   |    addr    |    control     |     protocol     |  info  | pad| Check|      
-|-----------|------------|----------------|------------------|--------|----|------|
-|           |            |                |                  |        |    |      |
+|    flag   |broadcast_addr|    control     |     protocol |  info  | pad| Checksum|      
+|-----------|--------------|----------------|--------------|--------|----|---------|
+|begin & end|      0xFF    |                |              |        |    |         |
 
 
 * Encapsulation
 
-|                 |                 |                  |                  |        |                           
-|-----------------|-----------------|------------------|------------------|--------|
-|                 |                 |                  |                  |        |
+|    flag   |    addr    |    control     |     protocol |  info  | pad| Checksum|      
+|-----------|------------|----------------|--------------|--------|----|---------|
+|           |            |                |              |        |    |         |
