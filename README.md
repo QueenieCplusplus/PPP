@@ -25,3 +25,7 @@ https://github.com/QueenieCplusplus/DataStorage_Hadoop#key-in-session-加密的�
 # Encrypto 
 
 https://github.com/QueenieCplusplus/Cipher_Crypto
+
+# Compression
+
+Increases the effective throughput on PPP connections by reducing the amount of data in the frame that must travel across the link. Then decompress at destination.
