@@ -3,6 +3,10 @@ Point to Point Protocol == dial up access (DSL) from client to ISP uisng PPPoE |
 
 PPP provides data-link connection between 2 routers, it can provide authentication, encryption, and compression.
 
+# LCP
+
+LCP, Link Control Protocol to establish, configure, and test the link as well as negotiate settings, options and the use of features.
+
 # Establishment of PPP in Physical Network
 
 - [x] Serial Cable or Phone Line
