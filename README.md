@@ -61,13 +61,13 @@ Increases the effective throughput on PPP connections by reducing the amount of 
 * Structure
 
 
-|    flag   |broadcast_addr|    control     |  protocol |  info  | pad| Checksum|      
-|-----------|--------------|----------------|-----------|--------|----|---------|
-|begin & end|      0xFF    |                |  PPP ID   |datagram| opt|         |
+|    flag   |broadcast_addr|    control |  protocol |  info  | pad| Checksum| flag |      
+|-----------|--------------|------------|-----------|--------|----|---------|------|
+|begin & end|      0xFF    |            |  PPP ID   |datagram| opt|         |      |
 
 
 * Encapsulation
 
-|    flag   |    addr    |    control     |     protocol |  info  | pad| Checksum|      
-|-----------|------------|----------------|--------------|--------|----|---------|
-|           |            |                |              |        |    |         |
+|    flag   |    addr    |    control     |     protocol |  info  | pad| fcs|      
+|-----------|------------|----------------|--------------|--------|----|----|
+|           |            |                |              |        |    |    |
