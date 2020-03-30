@@ -13,6 +13,18 @@ PPP provides data-link connection between 2 routers, it can provide authenticati
 
 - [x] Special Radio Link
 
+# Life Cycle
+
+1. dead
+
+2. establish
+
+3. auth
+
+4. data transport while the network protocol invoked.
+
+5. terminate
+
 # Auth
 
 Peer routers exchange auth messages. Two auth choices are Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP). 
