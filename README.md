@@ -5,6 +5,8 @@ PPP provides data-link connection between 2 routers, it can provide authenticati
 
 # Auth
 
+https://github.com/QueenieCplusplus/DataStorage_Hadoop#key-in-session-加密的安全通訊技術
+
 
 # Encrypto 
 
