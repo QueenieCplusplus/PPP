@@ -1,7 +1,7 @@
 # PPP
 Point to Point Protocol == dial up access (DSL) from client to ISP uisng PPPoE || PPPoA
 
-PPP provides data-link connection between 2 routers, it can provide authentication, encryption, and compression.
+PPP provides data-link connection between 2 routers, it can provide authentication, encryption, and compression featues.
 
 And PPTP (point to point tunneling protocol) is for hosts, not for 2 routers ~
 
