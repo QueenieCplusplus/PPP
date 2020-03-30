@@ -49,7 +49,7 @@ Increases the effective throughput on PPP connections by reducing the amount of 
 
 |    flag   |broadcast_addr|    control     |  protocol |  info  | pad| Checksum|      
 |-----------|--------------|----------------|-----------|--------|----|---------|
-|begin & end|      0xFF    |                |  PPP ID   |        |    |         |
+|begin & end|      0xFF    |                |  PPP ID   |datagram| opt|         |
 
 
 * Encapsulation
